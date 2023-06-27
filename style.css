@@ -1,0 +1,460 @@
+ /* ========== import google font ========== */
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Istok+Web:wght@700&family=Kdam+Thmor+Pro&family=Lobster&family=Manrope:wght@200;400;600;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500&family=Rubik+Moonrocks&display=swap');
+
+ header>nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 100px;
+     background: #E9E6D7;
+     ;
+ }
+
+ ul>li {
+     list-style: none;
+ }
+
+ ul>li>button,
+ .surah {
+     background: #26534C;
+     border-radius: 4px;
+     padding: 9px 30px;
+     border: none;
+     color: #ffffff;
+     /* ========== font-family ========== */
+     font-family: 'Manrope';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 28px;
+ }
+
+ main>.top_section {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background: #E9E6D7;
+     ;
+ }
+
+ .top_section>h2 {
+     font-family: 'Manrope';
+     font-weight: 700;
+     font-size: 62px;
+     color: #1C3F39;
+     text-align: center;
+     margin: 0;
+ }
+
+ .top_section>p {
+     font-family: 'Manrope';
+     font-size: 18px;
+     color: #556561;
+     font-weight: 400;
+ }
+
+ .top_section>.buttons {
+     display: flex;
+     gap: 22px;
+
+ }
+
+ .read_btn,
+ .learn_more_btn,
+ .show_more_btn {
+     display: flex;
+     align-items: center;
+     gap: 9px;
+     background: #F2AC0D;
+     border-radius: 6px;
+     padding: 12px 18px;
+     border: none;
+     font-family: 'Manrope';
+     font-size: 16px;
+     font-weight: 600;
+     color: #1C3F39;
+
+ }
+
+ .audio_btn {
+     display: flex;
+     gap: 9px;
+     padding: 12px 18px;
+     border-radius: 6px;
+     border: 2px solid #556561;
+     background: none;
+     align-items: center;
+     font-family: 'Manrope';
+     font-size: 16px;
+     font-weight: 600;
+     color: #1C3F39;
+ }
+
+ .banner_img_con {
+     background: #E9E6D7;
+     display: flex;
+     padding-top: 70px;
+     padding-left: 135px;
+     padding-right: 135px;
+     gap: 0 16px;
+ }
+
+ .banner_img {
+     height: 444px;
+
+ }
+
+ .counter_con {
+     background: #1C3F39;
+     padding: 59px 135px;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+
+ .counter_text>h3 {
+     color: #F2AC0D;
+     margin: 0;
+     font-family: 'Manrope';
+     font-size: 42px;
+     line-height: 52px;
+     text-align: center;
+     font-style: normal;
+ }
+
+ .counter_text>p {
+     color: #B7CBC7;
+     font-family: 'Manrope';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 30px;
+ }
+
+ .border {
+     width: 1px;
+     height: 70px;
+     background: #315E56;
+ }
+
+ .about_container {
+     background: #E9E6D7;
+     padding: 77px 135px;
+     display: flex;
+     gap: 130px;
+ }
+
+ .about_text_container>h2 {
+     font-family: 'Manrope';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 42px;
+     line-height: 52px;
+     color: #1C3F39;
+ }
+
+ .about_text_container>p {
+     font-family: 'Manrope';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 28px;
+     color: #556561;
+ }
+
+ .translation_section_container {
+     padding: 170px 135px;
+     background: #E9E6D7;
+ }
+
+ .translation_section_container>h2 {
+     font-family: 'Manrope';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 42px;
+     line-height: 52px;
+     color: #1C3F39;
+     text-align: center;
+ }
+
+ .short_by_part {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 48px;
+ }
+
+ .short_by_part>.buttons_container {
+     border: 1px solid #CCD3D2;
+     padding: 6px;
+     border-radius: 5px;
+ }
+
+ .juz {
+     font-family: 'Manrope';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 28px;
+     color: #1C3F39;
+     border: none;
+     background: none;
+     padding: 13px 30px;
+ }
+
+ .short_by_part>p {
+     font-family: 'Manrope';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 20px;
+
+ }
+
+ .short_by_part>p>span {
+     color: #556561;
+ }
+
+ .short_by_part>img {
+     margin-left: 2px;
+ }
+
+ .translation_container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 30px;
+ }
+
+ .single_translation {
+     background: #ffffff;
+     padding: 22px;
+     border-radius: 6px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .single_translation>.text_left {
+     display: flex;
+     gap: 16px;
+     align-items: start;
+ }
+
+ .no {
+     background: #E9E6D7;
+     border-radius: 6px;
+     padding: 7px;
+     display: inline;
+     font-family: 'Manrope';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 14px;
+ }
+
+ .text>h5 {
+     margin: 0;
+     font-family: 'Manrope';
+     color: #1C3F39;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 30px;
+ }
+
+ .text>p {
+     margin: 0;
+     font-family: 'Manrope';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+ }
+
+ .show_more_btn_con {
+     display: flex;
+     justify-content: center;
+     margin-top: 55px;
+ }
+
+ .reciters_container {
+     background: #1C3F39;
+     display: flex;
+     gap: 130px;
+     padding: 100px 0;
+ }
+
+ .image_container {
+     display: flex;
+     gap: 30px;
+ }
+
+ .listen_by>h2 {
+     font-family: 'Manrope';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 42px;
+     line-height: 52px;
+     color: #f5f5f5;
+     margin: 0;
+ }
+
+ .listen_by>p {
+     color: #B7CBC7;
+     font-size: 16px;
+     font-family: Manrope;
+     line-height: 28px;
+     padding: 20px 0px 38px 0;
+     margin: 0;
+ }
+
+ .button_container {
+     display: flex;
+     align-items: center;
+     gap: 24px;
+ }
+
+ .blog_container {
+     margin: 135px 135px 20px 135px;
+ }
+
+ .top_part {
+     text-align: center;
+     margin-bottom: 70px;
+ }
+
+ .border_b {
+     width: 35px;
+     height: 2px;
+     background: #26534c;
+     border-radius: 1px;
+ }
+
+ .blogs {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 30px;
+ }
+
+ .blogs>article {
+     display: flex;
+     gap: 18px;
+     border: 1px solid #ccd3d2;
+     border-radius: 8px;
+     padding: 19px;
+ }
+
+ .text_container>h3 {
+     color: #1C3F39;
+     font-size: 20px;
+     font-family: Manrope;
+     font-weight: 700;
+     line-height: 30px;
+ }
+
+ .text_container>p {
+     color: #556561;
+     font-size: 14px;
+     font-family: Manrope;
+     line-height: 24px;
+ }
+
+ .text_container>button {
+     color: #556561;
+     font-size: 14px;
+     font-family: Manrope;
+     font-weight: 600;
+     line-height: 24px;
+     background: none;
+     border: none;
+ }
+
+ .read_more_button_contaiter {
+     display: flex;
+     justify-content: center;
+     margin-top: 75px;
+     margin-bottom: 170px;
+ }
+
+ .cta_container {
+     background: #1C3F39;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     padding: 100px 0;
+ }
+
+ .cta_container>h2 {
+     color: #FFF;
+     text-align: center;
+     font-size: 42px;
+     font-family: Manrope;
+     font-weight: 700;
+     line-height: 52px;
+     margin: 0;
+ }
+
+ .cta_container>p {
+     color: #B7CBC7;
+     text-align: center;
+     font-size: 16px;
+     font-family: Manrope;
+     line-height: 28px;
+     margin: 20px 0 38px 0;
+ }
+
+ .footer_container {
+     background: #E9E6D7;
+     display: flex;
+     padding: 78.63px 136px;
+     gap: 77px;
+ }
+
+ .left_section {
+     display: flex;
+     flex-direction: column;
+     gap: 16px;
+ }
+
+ .left_section>img {
+     width: 40%;
+ }
+
+ .left_section>span {
+     color: #556561;
+     text-align: center;
+     font-size: 16px;
+     font-family: Manrope;
+     line-height: 28px;
+ }
+
+ .social_icons_container {
+     display: flex;
+     gap: 18px;
+ }
+
+ .right_section {
+     display: flex;
+     gap: 77px;
+ }
+
+ .list_container>h4 {
+     color: #1C3F39;
+     font-size: 18px;
+     font-family: Manrope;
+     font-weight: 600;
+     line-height: 30px;
+ }
+
+ .list_container>ul {
+     padding: 0;
+ }
+
+ .list_container>ul>li {
+     list-style: none;
+     color: #556561;
+     font-size: 16px;
+     font-family: Manrope;
+     line-height: 28px;
+     padding: 10px 0;
+
+
+ }
